@@ -1,0 +1,72 @@
+{
+  "build_script": "vite build",
+  "gameplay_or_asset_changes": false,
+  "google_fonts_selfhost": {
+    "families": [
+      {
+        "family": "Changa",
+        "source": "ofl/changa/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "IBM Plex Sans Arabic",
+        "source": "ofl/ibmplexsansarabic/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "Oswald",
+        "source": "ofl/oswald/OFL.txt",
+        "spdx": "OFL-1.1"
+      }
+    ],
+    "font_files": 20,
+    "fonts_dir": ".packaging/google-fonts",
+    "google_fonts_commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+    "helper": "google-fonts-selfhost.py",
+    "stylesheets": [
+      {
+        "local": ".packaging/google-fonts/3dde53e17ac92a78.css",
+        "sha256": "bb84fedeef1ea43bc6d150bd03027511803daf7757d150bf62f6135514e8d06b",
+        "url": "https://fonts.googleapis.com/css2?family=Changa:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Oswald:wght@400;500;600;700&display=swap"
+      }
+    ],
+    "total_font_bytes": 350016,
+    "version": 1
+  },
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "aymansalkhatib/ghasaq",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json",
+    ".packaging/google-fonts/3dde53e17ac92a78.css",
+    ".packaging/google-fonts/NOTICE.md",
+    ".packaging/google-fonts/files/0930d8c09d9997dc1f62.woff2",
+    ".packaging/google-fonts/files/261e05475898ecd17528.woff2",
+    ".packaging/google-fonts/files/3a67cf2b96d068f8493e.woff2",
+    ".packaging/google-fonts/files/3d08b6fbe81da6288239.woff2",
+    ".packaging/google-fonts/files/41f1e64ff8dbfd64b5fb.woff2",
+    ".packaging/google-fonts/files/468493a3b9dd5289af76.woff2",
+    ".packaging/google-fonts/files/50d246d60cbee4fd1ba8.woff2",
+    ".packaging/google-fonts/files/632518d8547284aacd53.woff2",
+    ".packaging/google-fonts/files/686b1148747109364bb9.woff2",
+    ".packaging/google-fonts/files/689a46e3c1cad40494b1.woff2",
+    ".packaging/google-fonts/files/7dd7150c58c015953a38.woff2",
+    ".packaging/google-fonts/files/9b8fa30eaaa1b7f0b7bd.woff2",
+    ".packaging/google-fonts/files/a9cbb6b1f248e20be946.woff2",
+    ".packaging/google-fonts/files/b2de6009fc8df8a89c56.woff2",
+    ".packaging/google-fonts/files/d0c935d94fc74ce03c09.woff2",
+    ".packaging/google-fonts/files/dcc9886568f2342d5480.woff2",
+    ".packaging/google-fonts/files/df048330045f432c67fe.woff2",
+    ".packaging/google-fonts/files/e493f5fa912cdecf96d5.woff2",
+    ".packaging/google-fonts/files/e613bad269e158ab6ae1.woff2",
+    ".packaging/google-fonts/files/f2aaf697f3b63712db2c.woff2",
+    ".packaging/google-fonts/licenses/Changa-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/IBM-Plex-Sans-Arabic-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/Oswald-OFL-1.1.txt",
+    "index.html"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "0ad4514bfc2754b18b3ba1db6f481c78a7590a42"
+}
